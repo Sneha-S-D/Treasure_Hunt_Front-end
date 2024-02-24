@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width="device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_login.css">
+    <title>Login</title>
+  </head>
+  <body>
+    <header class="container">
+      <div class="heading">
+        AURA 2K24
+      </div>
+    </header>
+    <br>
+    <p class="title">TREASURE HUNT</p>
+    <section class="card">
+      <div class="name">
+      <label for="username">Username: </label>
+      <input type="text" name="username" placeholder="Enter your username" class="name_box">
+      </div>
+      <div class="name">
+        <label for="Password">Password: </label>
+        <input type="password" name="Password" placeholder="Enter your pasword" class="name_box">
+        </div>
+        <br>
+        <button type="submit" name="button" id="login">Login</button>
+    </section>
+    <script>
+
+const loginButton = document.getElementById('login');
+
+loginButton.addEventListener('click', function() {
+    window.location.href = 'next.html';
+});
+    </script>
+  </body>
+  
+</html>
